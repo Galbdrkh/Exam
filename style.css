@@ -83,24 +83,25 @@ nav {
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: #000000;
     background-repeat: no-repeat;
     height: 60vh;
     align-items: center;
 }
 .title {
     display: flex;
-    width: 40%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    color: #F5F5F7;
-    background-image: url(./images/figureiPhone14\ pro.png);
+    height: 60vh;
 }
 .title h1 {
     font-size: 3.5rem;
     margin-bottom: 0;
     font-weight: 600;
+    color: #ffffff;
+}
+.title p {
+    color: #ffffff;
 }
 .section-2 img {
     margin: 0;
@@ -109,7 +110,7 @@ nav {
 .links-2 {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 15%;
     font-size: 1.3rem;
     padding-bottom: 10px;
 }.links-2 a {
